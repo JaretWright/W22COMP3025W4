@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
        //configure the content view to use the binding class instead of the activity_main.xml
         setContentView(binding.root)
 
+        //click listener to pass the users' name into a different Activity
         binding.passDetailsButton.setOnClickListener {
             var name = binding.nameEditText.text.toString()
 
@@ -34,6 +35,16 @@ class MainActivity : AppCompatActivity() {
             {
                 Toast.makeText(this,"Please enter your name", Toast.LENGTH_LONG).show()
             }
+        }
+
+        //navigate to the WebActivity
+        binding.webButton.setOnClickListener {
+            startActivity(Intent(this,WebBrowserActivity::class.java))
+        }
+
+        //navigate to the sms Activity
+        binding.smsButton.setOnClickListener {
+            startActivity(Intent(this,SmsActivity::class.java))
         }
     }
 }
