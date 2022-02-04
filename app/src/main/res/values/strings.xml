@@ -3,5 +3,6 @@
     <string name="name">Name</string>
     <string name="pass_details"><![CDATA[Pass Details >>]]></string>
     <string name="web_browser">Web Browser</string>
+    <string name="back_to_main">Back To Main</string>
 
 </resources>

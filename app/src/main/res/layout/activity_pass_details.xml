@@ -22,7 +22,7 @@
         android:id="@+id/detailsBackToMainButton"
         android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
-        android:text="@string/web_browser"
+        android:text="@string/back_to_main"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
