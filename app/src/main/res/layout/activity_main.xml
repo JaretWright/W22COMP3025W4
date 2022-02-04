@@ -19,24 +19,47 @@
         app:srcCompat="@drawable/compass" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
+        android:id="@+id/nameEditText"
+        android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/name"
+        android:padding="5dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="@dimen/top_margin"/>
+        android:layout_marginTop="@dimen/top_margin"
+        android:background="@drawable/rectangle"
+        android:textColor="@color/white"/>
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:id="@+id/passDetailsButton"
+        android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
-        android:text="Pass Details >>"
+        android:text="@string/pass_details"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/nameEditText"
+        android:layout_marginTop="@dimen/button_margin"/>
+
+    <Button
+        android:id="@+id/webButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/web_browser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passDetailsButton"
+        android:layout_marginTop="@dimen/button_margin"/>
+
+    <Button
+        android:id="@+id/smsButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/web_browser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/webButton"
         android:layout_marginTop="@dimen/button_margin"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

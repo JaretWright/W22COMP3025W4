@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jwright/AndroidStudioProjects/W22COMP3025W4/app/src/main/res/drawable/rectangle.xml" value="0.2703125" />
         <entry key="..\:/Users/jwright/AndroidStudioProjects/W22COMP3025W4/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/jwright/AndroidStudioProjects/W22COMP3025W4/app/src/main/res/layout/activity_pass_details.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

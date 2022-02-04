@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Learning about Intents</string>
     <string name="name">Name</string>
+    <string name="pass_details"><![CDATA[Pass Details >>]]></string>
+    <string name="web_browser">Web Browser</string>
 
 </resources>
