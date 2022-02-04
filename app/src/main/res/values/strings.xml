@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Learning about Intents</string>
+    <string name="name">Name</string>
 
 </resources>
