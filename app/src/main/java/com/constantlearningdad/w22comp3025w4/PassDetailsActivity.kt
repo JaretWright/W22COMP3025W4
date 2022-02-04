@@ -15,7 +15,7 @@ class PassDetailsActivity : AppCompatActivity() {
         //get the persons' name from the intent and update the TextView with
         //the name
         var name = intent.getStringExtra("name")
-        binding.nameTextView.text = name
+        binding.nameTextView.text = "Hello $name"
 
         //update the button to navigate back to the MainActivity
         binding.detailsBackToMainButton.setOnClickListener {
